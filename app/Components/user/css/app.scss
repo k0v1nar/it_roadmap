@@ -1,0 +1,38 @@
+.block {
+    // Размер и отступы
+    padding: 1rem; // Внутренний отступ
+    margin: 1rem;  // Внешний отступ
+  
+    // Фон и обводка
+    background-color: #ffffff; // Белый фон
+    border: 1px solid #dcdcdc; // Светло-серая обводка
+    border-radius: 8px;        // Скругление углов
+  
+    // Тень
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Легкая тень
+  
+    // Переходы для плавных изменений
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  
+    // Анимация при наведении
+    &:hover {
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); // Увеличенная тень
+      transform: translateY(-3px); // Подъем контейнера
+    }
+  }
+.block-no-hover {
+  padding: 1rem; // Внутренний отступ
+  margin: 1rem;  // Внешний отступ
+
+  // Фон и обводка
+  background-color: #ffffff; // Белый фон
+  border: 1px solid #dcdcdc; // Светло-серая обводка
+  border-radius: 8px;        // Скругление углов
+
+  // Тень
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Легкая тень
+}
+.card-img-left {
+  max-height: 100px;
+}
+  

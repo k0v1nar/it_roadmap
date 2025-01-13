@@ -1,0 +1,10 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import '../../app/Components/user/css/app.scss';
+
+html {
+    height: 100%;
+}
